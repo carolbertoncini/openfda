@@ -1,0 +1,56 @@
+<html>
+<html lang = "en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <body style="background-color: A9E2F3">
+    <title><font face = "Calibri Light">Search OpenFDA Application</font></title>
+</head>
+
+<body>
+
+
+<p><h2><font face = "Calibri Light">Datos que peude obtener:<p></p>1. Medicamentos(ingrediente activo) <p></p>2. Fabricantes <p></p>3. Lista de medicamentos<p></p>4. Lista de fabricantes<p></p>5. Warnings</font></h2></p>
+
+<form action = "searchDrug">
+    <p><h3><font face = "Calibri Light">Introducir ingrediente activo:</font></h3></p>
+	Active ingredient: <input name = "active_ingredient" type = "text">
+	Limit: <input name = "limit" type = "text">
+    <input type="submit">
+</form>
+
+<p></p>
+
+<form action = "searchCompany">
+    <p><h3><font face = "Calibri Light">Introducir nombre del fabricante:</font></h3></p>
+	Company: <input name = "company_name" type = "text">
+	Limit: <input name = "limit" type = "text">
+	<input type = "submit">
+</form>
+
+<p></p>
+
+<form action = "listDrugs">
+    <p><h3><font face = "Calibri Light">Introducir el número de medicamentos que quiera:</font></h3></p>
+    Limit: <input name = "limit" type = "text">
+	<input type = "submit">
+</form>
+
+<p></p>
+
+<form action = "listCompanies">
+    <p><h3><font face = "Calibri Light">Introducir número de fabricantes:</font></h3></p>
+	Limit: <input name = "limit" type = "text">
+	<input type = "submit">
+</form>
+
+<p></p>
+
+<form action = "listWarnings">
+    <p><h3><font face = "Calibri Light">Introducir numero de warnings:</font></h3></p>
+	Limit: <input name = "limit" type = "text">
+	<input type = "submit">
+</form>
+
+</body>
+</html>
